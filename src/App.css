@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,49 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.app-wrapper {
+  display: grid;
+  grid-template-areas:
+    'h h'
+    'n m';
+  grid-template-rows: 120px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 10px;
+  max-width: 1200px;
+}
+
+.header {
+  grid-area: h;
+  margin: 10px;
+  padding: 10px;
+  background: linear-gradient(rgb(143, 245, 143), rgb(250, 250, 91));
+  height: 100px;
+}
+
+.nav {
+  grid-area: n;
+  margin: 10px;
+  padding: 10px;
+  background: linear-gradient(rgb(7, 168, 7), rgb(255, 255, 255));
+}
+
+.main {
+  grid-area: m;
+  margin: 10px;
+  padding: 10px;
+  background: linear-gradient(rgb(36, 183, 241), rgb(255, 255, 255));
+}
+
+.main-cap {
+  height: 150px;
+  width: 100%;
+  /* max-width: 800px; */
+  display: block;
+  margin: 0 auto;
+}
+
+.user-pic-image {
+  width: 150px;
 }
