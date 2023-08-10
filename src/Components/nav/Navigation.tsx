@@ -1,0 +1,28 @@
+import React from 'react';
+import './../../../src/App.css';
+
+export function Navigation() {
+  return (
+    <>
+      <nav className="nav">
+        <div>
+          <div>
+            <a href="#">Profile</a>
+          </div>
+          <div>
+            <a href="#">Messages</a>
+          </div>
+          <div>
+            <a href="#">Friends</a>
+          </div>
+          <div>
+            <a href="#">Music</a>
+          </div>
+          <div>
+            <a href="#">Settings</a>
+          </div>
+        </div>
+      </nav>
+    </>
+  );
+}
