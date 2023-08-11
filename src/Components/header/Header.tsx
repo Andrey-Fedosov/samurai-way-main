@@ -1,11 +1,11 @@
 import React from 'react';
-import './../../../src/App.css';
-import { HeaderData } from '../HeaderData';
+import st from './../header/Header.module.css';
+import { HeaderData } from '../headerData/HeaderData';
 
 export function Header() {
   return (
     <>
-      <header className="header">
+      <header className={st.header}>
         <HeaderData title="React Masters" />
       </header>
     </>
