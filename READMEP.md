@@ -4,3 +4,5 @@
 here will be all commits and train exercices
 
 1 today i have worked with start lessons of reduccers
+
+1 codewars tasks i have done
